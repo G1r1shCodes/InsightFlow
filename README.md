@@ -1,12 +1,33 @@
-# InsightFlow - Multi-Agent Business Intelligence System
+```text
+██╗███╗   ██╗███████╗██╗ ██████╗ ██╗  ██╗████████╗███████╗██╗      ██████╗ ██╗    ██╗
+██║████╗  ██║██╔════╝██║██╔════╝ ██║  ██║╚══██╔══╝██╔════╝██║     ██╔═══██╗██║    ██║
+██║██╔██╗ ██║███████╗██║██║  ███╗███████║   ██║   █████╗  ██║     ██║   ██║██║ █╗ ██║
+██║██║╚██╗██║╚════██║██║██║   ██║██╔══██║   ██║   ██╔══╝  ██║     ██║   ██║██║███╗██║
+██║██║ ╚████║███████║██║╚██████╔╝██║  ██║   ██║   ██║     ███████╗╚██████╔╝╚███╔███╔╝
+╚═╝╚═╝  ╚═══╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚══════╝ ╚═════╝  ╚══╝╚══╝
+```
 
-AI-powered business report generator using multi-agent orchestration to automate research, analysis, and strategic recommendations.
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Multi--Agent%20System-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/CrewAI-Orchestration-purple?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Groq-LLM-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Gemini-Fallback-4285F4?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
+  <img src="https://img.shields.io/badge/Plotly-Visualization-3F4F75?style=for-the-badge&logo=plotly&logoColor=white">
+  <img src="https://img.shields.io/badge/Serper-Web%20Search-green?style=for-the-badge">
+</p>
 
-## 🎯 Problem Statement
-Business analysts spend 60-70% of their time on manual research and data gathering. 
-InsightFlow automates this workflow using specialized AI agents.
+<p align="center">
+  <strong>AI-Powered Multi-Agent Business Intelligence System</strong>
+</p>
 
-## 🏗️ Architecture
+<p align="center">
+  Automating research, analysis, and strategic decision-making using specialized AI agents.
+</p>
+
+---
+
+## Architecture
 - **Research Agent**: Web scraping and data collection
 - **Analysis Agent**: SWOT analysis and trend identification  
 - **Strategy Agent**: Strategic recommendations and roadmap
@@ -14,20 +35,20 @@ InsightFlow automates this workflow using specialized AI agents.
 
 The system uses a robust LLM fallback architecture, intelligently switching between `OpenGateway`, `Groq`, and `Gemini` automatically to ensure maximum uptime, even during rate limits or service timeouts.
 
-## 💼 Business Impact
+## Business Impact
 - Reduces research time from 8 hours → 15 minutes (97% reduction)
 - Provides structured, consistent analysis framework
 - Enables analysts to focus on high-value decision-making
 - Scalable across industries and company sizes
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **CrewAI**: Multi-agent orchestration
 - **LLMs**: Groq (primary) and Google Gemini (fallback) natively integrated
 - **Streamlit**: Modern, adaptive UI
 - **Plotly**: Dynamic, auto-generated interactive visualizations
 - **SerperDev**: Real-time web search capabilities
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 1. **Clone the repository:**
    ```bash
@@ -59,7 +80,7 @@ The system uses a robust LLM fallback architecture, intelligently switching betw
    ```
    Navigate to `http://localhost:8501` to view the dashboard!
 
-## 🔮 Future Enhancements
+## Future Enhancements
 - Financial data integration (Yahoo Finance API)
 - PDF export with charts/graphs
 - Multi-company comparison mode
